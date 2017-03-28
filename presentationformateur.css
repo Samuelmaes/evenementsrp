@@ -1,0 +1,14 @@
+.ovale
+{
+   width: 600px;
+   height: 200px;
+   border-radius: 60px / 40px;
+
+}
+
+.cercle
+{
+    width: 250px;
+    height: 250px;
+    border-radius: 125px;
+}
