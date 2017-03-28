@@ -23,7 +23,7 @@ body
 }
 #header3
 {
-  height: 500px;
+  height: 1700px;
   background: white;  /* sa ces le morceau blanc au milieux de la page, taille a modifier selon le longueur de la pageS*/
 }
 #header4
@@ -42,10 +42,15 @@ h1
 h2
 {
   font-size : 40px;
-  color: black;
   font-weight: bold;
   margin-left: 390px;
   margin-right: 390px;
+  color : #f42B8C;
+}
+h3
+{
+  font-size : 30px;
+  margin: 70px;
   color : #f42B8C;
 }
 p
@@ -71,15 +76,15 @@ img
   max-width:100%;
   height:auto;
 }
-.ovale
+.srp
 {
-  width: 700px;
-  height: 250px;
+  width: 500px;
+  height: 150px;
   border-radius: 60px / 40px;
 }
 .cercle
 {
- width: 500px;
-   height: 350px;
+ width: 400px;
+   height: 250px;
    border-radius: 125px;
 }
