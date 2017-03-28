@@ -1,0 +1,57 @@
+body
+{
+
+    background-color: white; /* Le fond de la page sera noir */
+    color: white; /* Le texte de la page sera blanc */
+    margin: 100px;
+}
+h1
+{
+  font-weight: bold;
+  text-align: center;
+  font-size : 50px;
+  color:  black;
+  margin-left: 15px;
+}
+h2
+{
+  font-size : 40px;
+  color: black;
+  font-weight: bold;
+  margin-left: 450px;
+  margin-right: 450px;
+}
+p
+{
+margin: 75px;
+font-size : 20px;
+}
+ul
+{
+margin-left: 450px;
+margin-right: 425px;
+font-size : 20px;
+}
+span
+{
+  margin-left: 100px;
+  margin-right: 150px;
+}
+img
+{
+  margin-left: 25px;
+  max-width:100%;
+  height:auto;
+}
+.ovale
+{
+  width: 600px;
+  height: 200px;
+  border-radius: 60px / 40px;
+}
+.cercle
+{
+ width: 500px;
+   height: 350px;
+   border-radius: 125px;
+}
