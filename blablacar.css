@@ -36,7 +36,7 @@ h1
   font-weight: bold;
   text-align: center;
   font-size : 50px;
-  color: pink;
+  color: #f42B8C;
   margin-left: 15px;
 }
 h2
@@ -63,6 +63,7 @@ span
 {
   margin-left: 100px;
   margin-right: 150px;
+  align : center;
 }
 img
 {
@@ -81,8 +82,4 @@ img
  width: 500px;
    height: 350px;
    border-radius: 125px;
-}
-span
-{
-  align : center;
 }
