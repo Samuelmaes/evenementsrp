@@ -1,3 +1,4 @@
+/*début barre de navigation*/
 #menu-demo2, #menu-demo2 ul{
 padding:0;
 margin:0;
@@ -35,50 +36,64 @@ max-height:15em;
 }
 /* background des liens menus */
 #menu-demo2 li:first-child{
-background-color: #65537A;
-background-image:-webkit-linear-gradient(top, #65537A 0%, #2A2333 100%);
-background-image:linear-gradient(to bottom, #65537A 0%, #2A2333 100%);
+background-color: #FF3399;
+background-image:-webkit-linear-gradient(top, #FF3399 0%, #FF3399 100%);
+background-image:linear-gradient(to bottom, #FF3399 0%, #FF3399 100%);
 }
 #menu-demo2 li:nth-child(2){
-background-color: #729EBF;
-background-image: -webkit-linear-gradient(top, #729EBF 0%, #333A40 100%);
-background-image:linear-gradient(to bottom, #729EBF 0%, #333A40 100%);
+background-color: #FF3399;
+background-image: -webkit-linear-gradient(top, #FF3399 0%, #FF3399 100%);
+background-image:linear-gradient(to bottom, #FF3399 0%, #FF3399 100%);
 }
 #menu-demo2 li:nth-child(3){
-background-color: #F6AD1A;
-background-image:-webkit-linear-gradient(top, #F6AD1A 0%, #9F391A 100%);
-background-image:linear-gradient(to bottom, #F6AD1A 0%, #9F391A 100%);
+background-color: #FF3399;
+background-image:-webkit-linear-gradient(top, #FF3399 0%, #FF3399 100%);
+background-image:linear-gradient(to bottom, #FF3399 0%, #FF3399 100%);
+}
+#menu-demo2 li:nth-child(4){
+background-color: #FF3399;
+background-image:-webkit-linear-gradient(top, #FF3399 0%, #FF3399 100%);
+background-image:linear-gradient(to bottom, #FF3399 0%, #FF3399 100%);
 }
 #menu-demo2 li:last-child{
-background-color: #CFFF6A;
-background-image:-webkit-linear-gradient(top, #CFFF6A 0%, #677F35 100%);
-background-image:linear-gradient(to bottom, #CFFF6A 0%, #677F35 100%);
+background-color: #FF3399;
+background-image:-webkit-linear-gradient(top, #FF3399 0%, #FF3399 100%);
+background-image:linear-gradient(to bottom, #FF3399 0%, #FF3399 100%);
 }
 /* background des liens sous menus */
 #menu-demo2 li:first-child li{
-background:#2A2333;
+background:#4B4C4E;
 }
 #menu-demo2 li:nth-child(2) li{
-background:#333A40;
+background:#4B4C4E;
 }
 #menu-demo2 li:nth-child(3) li{
-background:#9F391A;
+background:#4B4C4E;
+}
+#menu-demo2 li:nth-child(4) li{
+background:#4B4C4E;
+}
+#menu-demo2 li:nth-child(5) li{
+background:#4B4C4E;
 }
 #menu-demo2 li:last-child li{
-background:#677F35;
+background:#4B4C4E;
 }
 /* background des liens menus et sous menus au survol */
 #menu-demo2 li:first-child:hover, #menu-demo2 li:first-child li:hover{
-background:#65537A;
+background:#939680;
 }
 #menu-demo2 li:nth-child(2):hover, #menu-demo2 li:nth-child(2) li:hover{
-background:#729EBF;
+background:#939680;
 }
 #menu-demo2 li:nth-child(3):hover, #menu-demo2 li:nth-child(3) li:hover{
-background:#F6AD1A;
+background:#939680;
+}
+#menu-demo2 li:nth-child(4):hover, #menu-demo2 li:nth-child(4) li:hover{
+background:#939680;
 }
 #menu-demo2 li:last-child:hover, #menu-demo2 li:last-child li:hover{
-background:#CFFF6A;
+background:#939680;
 }
 /* les a href */
 #menu-demo2 a{
@@ -89,7 +104,7 @@ color:#fff;
 font-family:arial;
 }
 #menu-demo2 ul a{
-padding:8px 0;
+padding:12px 0;
 }
 #menu-demo2 li:hover li a{
 color:#fff;
@@ -98,6 +113,7 @@ text-transform:inherit;
 #menu-demo2 li:hover a, #menu-demo2 li li:hover a{
 color:#000;
 }
+/*fin barre de navigation*/
 body
 {
   background-color: white;
@@ -111,7 +127,7 @@ body
 #header
 {
   height:150px; /*taille de la barre*/
-  background: grey; /* couleur de la premiere barre du haut*/
+  background: #E1E1E1; /* couleur de la premiere barre du haut*/
   background-image: url(https://static.media.showroomprive.com/v4/0/_img/logo_srp_baseline.png); /*logo showroomprive en haut de la page*/
   background-repeat: no-repeat; /* pour que le logo ne ce repette pas*/
   background-position: center; /* pour que le logo vien au ventre */
