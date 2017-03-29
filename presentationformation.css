@@ -12,7 +12,7 @@ body
 #header
 {
   height:150px; /*taille de la barre*/
-  background: grey; /* couleur de la premiere barre du haut*/
+  background:  	#E1E1E1; /* couleur de la premiere barre du haut*/
   background-image: url(https://static.media.showroomprive.com/v4/0/_img/logo_srp_baseline.png); /*logo showroomprive en haut de la page*/
   background-repeat: no-repeat; /* pour que le logo ne ce repette pas*/
   background-position: center; /* pour que le logo vien au ventre */
