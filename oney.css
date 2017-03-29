@@ -11,7 +11,7 @@ body
 #header
 {
   height:150px; /*taille de la barre*/
-  background:  #E1E1E1; /* couleur de la premiere barre du haut*/
+  background: #E1E1E1; /* couleur de la premiere barre du haut*/
   background-image: url(https://static.media.showroomprive.com/v4/0/_img/logo_srp_baseline.png); /*logo showroomprive en haut de la page*/
   background-repeat: no-repeat; /* pour que le logo ne ce repette pas*/
   background-position: center; /* pour que le logo vien au ventre */
@@ -23,7 +23,7 @@ body
 }
 #header3
 {
-  height: 1700px;
+  height: 700px;
   background: white;  /* sa ces le morceau blanc au milieux de la page, taille a modifier selon le longueur de la pageS*/
 }
 #header4
@@ -43,8 +43,8 @@ h2
 {
   font-size : 40px;
   font-weight: bold;
-  margin-left: 390px;
-  margin-right: 390px;
+  margin-left: 300px;
+  margin-right: 300px;
   color : #f42B8C;
 }
 h3
@@ -76,7 +76,7 @@ img
   max-width:100%;
   height:auto;
 }
-.srp
+.ovale
 {
   width: 600px;
   height: 150px;
